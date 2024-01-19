@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "learner"
+  site-url: "https://rutwik121.github.io/learner"
+  description: "Learning"
+  repo-branch: main
+  repo-url: "https://github.com/rutwik121/learner"
