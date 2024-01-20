@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://rutwik121.github.io',
                 'git_url': 'https://github.com/rutwik121/learner',
                 'lib_path': 'learner'},
-  'syms': {'learner.core': {'learner.core.foo': ('core.html#foo', 'learner/core.py')}}}
+  'syms': { 'learner.core': { 'learner.core.foo': ('core.html#foo', 'learner/core.py'),
+                              'learner.core.say_hello': ('core.html#say_hello', 'learner/core.py')}}}
