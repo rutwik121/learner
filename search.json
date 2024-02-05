@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "learner",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "learner"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "learner",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\n36*58\n\n2088",
+    "crumbs": [
+      "learner"
+    ]
+  },
+  {
+    "objectID": "quarto_test.html",
+    "href": "quarto_test.html",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
+    "crumbs": [
+      "Quarto Basics"
+    ]
+  },
+  {
+    "objectID": "quarto_test.html#polar-axis",
+    "href": "quarto_test.html#polar-axis",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
+    "crumbs": [
+      "Quarto Basics"
+    ]
+  },
+  {
+    "objectID": "multi.html",
+    "href": "multi.html",
+    "title": "multiplication",
+    "section": "",
+    "text": "hello\n\n\nCode\n65*65\n\n\n4225\n\n\n\nsource\n\n\n\n say_hello (to)\n\nSay hello to somebody\n\nsource\n\n\n\n\n HelloSayer (to)\n\nSay hello to to using say_hello\n\n\nCode\no = HelloSayer(\"Alexis\")\no.say()\n\n\n'Hello Alexis!'\n\n\n\n\nCode\n\"Say hello to `to` using `say_hello`\"\n\n\n'Say hello to `to` using `say_hello`'",
+    "crumbs": [
+      "multiplication"
+    ]
+  },
+  {
+    "objectID": "multi.html#multiplication",
+    "href": "multi.html#multiplication",
+    "title": "multiplication",
+    "section": "",
+    "text": "hello\n\n\nCode\n65*65\n\n\n4225\n\n\n\nsource\n\n\n\n say_hello (to)\n\nSay hello to somebody\n\nsource\n\n\n\n\n HelloSayer (to)\n\nSay hello to to using say_hello\n\n\nCode\no = HelloSayer(\"Alexis\")\no.say()\n\n\n'Hello Alexis!'\n\n\n\n\nCode\n\"Say hello to `to` using `say_hello`\"\n\n\n'Say hello to `to` using `say_hello`'",
+    "crumbs": [
+      "multiplication"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core1",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsource\n\n\nfoo\n\n foo ()\n\n\nprint(\"hello\")\n\nhello\n\n\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'",
+    "crumbs": [
+      "core1"
+    ]
+  }
+]
