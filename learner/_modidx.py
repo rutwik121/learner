@@ -8,4 +8,10 @@ d = { 'settings': { 'branch': 'main',
   'syms': { 'learner.core': { 'learner.core.foo': ('core.html#foo', 'learner/core.py'),
                               'learner.core.say_hello': ('core.html#say_hello', 'learner/core.py')},
             'learner.core1': { 'learner.core1.foo': ('core.html#foo', 'learner/core1.py'),
-                               'learner.core1.say_hello': ('core.html#say_hello', 'learner/core1.py')}}}
+                               'learner.core1.say_hello': ('core.html#say_hello', 'learner/core1.py')},
+            'learner.core3': { 'learner.core3.foo': ('core.html#foo', 'learner/core3.py'),
+                               'learner.core3.say_hello': ('core.html#say_hello', 'learner/core3.py')},
+            'learner.multi': { 'learner.multi.HelloSayer': ('multi.html#hellosayer', 'learner/multi.py'),
+                               'learner.multi.HelloSayer.__init__': ('multi.html#hellosayer.__init__', 'learner/multi.py'),
+                               'learner.multi.HelloSayer.say': ('multi.html#hellosayer.say', 'learner/multi.py'),
+                               'learner.multi.say_hello': ('multi.html#say_hello', 'learner/multi.py')}}}
